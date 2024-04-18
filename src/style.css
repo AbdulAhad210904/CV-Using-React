@@ -1,0 +1,44 @@
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .education {
+    margin-bottom: 20px;
+  }
+  
+  .experience {
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    margin-bottom: 20px;
+  }
+  
+/* Table */
+.bio-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .bio-table th, .bio-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .bio-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .bio-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .bio-table tr:hover {
+    background-color: #ddd;
+  }
