@@ -1,3 +1,28 @@
+/* style.css */
+
+.nav {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to 100% of viewport height */
+  }
+  
+  .nav-link {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #ddd;
+  }
+  
 .header {
     background-color: #f0f0f0;
     padding: 20px;
